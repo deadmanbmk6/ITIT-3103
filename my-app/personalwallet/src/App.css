@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=M+PLUS+Code+Latin&display=swap') ;
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap') ;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #030201;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+header {
+  align-items: center;
+  background-color: #030201;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.loginpage {
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.loginpage h1 {
+  margin: 200px 0 -250px;
+}
+
+.superfonte {
+  font-family: Bungee Spice, cursive;
+  font-size: 48px;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.9);
+}
+
+.login-box {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.6) 0 5px 10px;
+  justify-content: center;
+  margin: 20% auto;
+  max-width: 40vw;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-box form {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.login-box input {
+  height: 20px;
+  width: 20vw;
+}
+
+button {
+  background-color: white;
+}
+
+.login-header {
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
+.header-info {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  height: 8vh;
+  text-align: center;
+}
+
+.header-info h5 {
+  color: #fca310;
+  font-weight: 300;
+}
+
+.header-info p {
+  color: #fcc729;
+  font-size: medium;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.walletform {
+  align-items: center;
+  background: linear-gradient(225deg, khaki 23%, rgba(252, 112, 0, 1) 68%);
+  box-shadow: rgba(0, 0, 0, 0.6) 0 5px 10px;
+  display: flex;
+  font-size: small;
+  height: 13vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.walletform form {
+  display: flex;
+  flex: row;
+  flex-wrap: nowrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.walletform input , select , button {
+  border: 1px black solid;
+  border-radius: 5px;
+  height: 30px;
+  text-align: center;
+}
+
+.walletform select , button {
+  width: 150px;
+}
+
+.walletform button {
+  background-color: #fcc729;
+  color: #140e09;
+  font-weight: 600;
+}
+
+table {
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  width: 95vw;
+}
+
+.infoDivida {
+  background-color: #eaf5d2;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+
+thead , th {
+  background-color: #140e09;
+  border-radius: 5px;
+  color: #fca310;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.desctd {
+  min-width: 15vw;
+}
+
+td {
+  padding: 10px;
+}
+
+.infoDivida:hover {
+  background-color: #fc7000;
+}
