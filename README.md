@@ -37,7 +37,7 @@
 * npm install
 * npm start
 
-## Open http://localhost:4000 to view it in your browser.
+## Open http://localhost:3000 to view it in your browser.
 
 ### The page will reload when you make changes.
 ## Your app is ready to be deployed!
