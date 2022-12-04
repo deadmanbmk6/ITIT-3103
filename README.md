@@ -7,6 +7,7 @@
 
 ## Our contributers
 
+### Link to commit logs https://github.com/deadmanbmk6/ITIT-3103/commits/main
 ### Pranay Vaidya Sunil(Pranay36) - 2020IMT-108
 ### Devanshu Patidar(deadmanbmk6) -2020IMT-026
 ### Ritik Kumar(ritik-reaper)-2020IMT-080
